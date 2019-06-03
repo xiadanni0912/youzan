@@ -1,0 +1,119 @@
+a{
+  text-decoration: none;
+}
+.box{
+  width: 1226px;
+  *zoom: 1;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+.box ul{
+  width: 1240px;
+  height: 415px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.box ul li{
+  width: 296px;
+  height: 220px;
+  margin: 0 0 28px;
+  float: left;
+  width: 296px;
+  height: 415px;
+  margin-left: 14px;
+  margin-bottom: 14px;
+  background: #fff;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
+
+.box ul li:first-child{
+  margin-left: 0;
+}
+
+.box ul li:hover {
+  z-index: 2;
+  -webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+  -webkit-transform: translate3d(0, -2px, 0);
+  transform: translate3d(0, -2px, 0);
+}
+
+.box ul li img{
+  width: 296px;
+  height: 220px;
+  margin: 0 0 28px;
+}
+
+.box ul li p{
+  height: 72px;
+  margin: 0 28px 22px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  overflow: hidden;
+  color: #333;
+}
+
+.box ul li span{
+  height: 18px;
+  margin: 0 28px 8px;
+  padding: 0 10px 0 0;
+  font-size: 12px;
+  color: #b0b0b0;
+  display: block;
+}
+
+.box ul li .info{
+  margin: 0 30px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.box ul li .info a{
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  max-width: 170px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  _zoom: 1;
+  vertical-align: bottom;
+  color: #333;
+}
+
+.box ul li .info i{
+  color: #e0e0e0;
+  margin: 0 .25em;
+  font-family: sans-serif;
+  font-style: inherit;
+}
+.box ul li .info b{
+  display: inline;
+  margin: 0;
+  color: #ff6700;
+  font-weight: initial;
+}
+.box h2{
+  margin: 0;
+  font-size: 22px;
+  font-weight: 200;
+  line-height: 58px;
+  color: #333;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+  font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
